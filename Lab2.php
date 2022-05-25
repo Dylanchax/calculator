@@ -12,3 +12,4 @@ function repeatContent(int $count = 1):void
 }
 repeatContent();
 repeatContent(5);
+
