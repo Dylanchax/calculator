@@ -17,4 +17,18 @@ function calculator (string $userformula): float
 
 {  
     echo ($userformula);
-   
+    preg_match_all('!\d+!', $userformula, $matches);
+
+    print_r($matches);
+    
+    echo ($userformula);
+        preg_match_all('!\D+!', $userformula, $opp);
+    
+    print_r($opp);
+    
+         return(0);
+    
+    
+    }
+    echo calculator('2-5*10');
+      
